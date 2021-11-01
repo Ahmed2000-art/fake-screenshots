@@ -1,0 +1,208 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --hue-neutral: 200;
+  --hue-wrong: 0;
+  --hue-correct: 145;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(C:/Users/magic/Downloads/Compressed/roboto/Roboto-Regular.ttf);
+}
+
+@font-face { font-family: Montserrat-Light; 
+       src: url('C:/Users/magic/Downloads/Compressed/Montserrat/Montserrat-Light.ttf'); } 
+
+/* not completed, must be responsive for the phone */
+/*@media (max-width: 600px) {*/ 
+
+	body {
+		background-color: #101010;
+		margin: 0;
+	}
+
+	#your-data {
+		color: #eeeeee;
+		font-family: Montserrat-Light;
+		font-weight: normal;
+		font-size: 14px;
+		position: relative;
+		top: 40px;		
+	}
+
+	#victim-data {
+		color: #eeeeee;
+		font-family: Montserrat-Light;
+		font-weight: normal;
+		font-size: 14px;
+		position: relative;
+		top: 40px;		
+	}
+
+	input {
+		width: 100px;
+		padding: 10px;
+		border-radius: 4px;
+		border: 3px solid #333;
+	}
+
+	#myTimeInput {
+		margin-left: 80px;
+	}
+
+	#victimNameInput {
+		margin-left: 100px;
+	}
+
+	.btn {
+		--hue: var(--hue-neutral);
+		border: 1px solid hsl(var(--hue), 100%, 30%);
+		background-color: hsl(var(--hue), 100%, 50%);
+		border-radius: 5px;
+		color: white;
+		outline: none;
+	}
+
+	.start-btn {
+		font-size: 1.5rem;
+		font-weight: bold;
+		padding: 10px 20px;
+	}
+
+	.finish-btn {
+		font-size: 1.5rem;
+		font-weight: bold;
+		padding: 10px 20px;
+		background-color: #CF1B1B;
+	}
+
+	.my-message {
+		height: 70px;
+		background-color: #202020;
+		padding-left: 20px;
+	}
+
+	.victim-message {
+		height: 80px;
+		background-color: #202020;
+		padding-left: 20px;	
+		padding-top: 8px;	
+	}
+
+	#photo1 {
+		width: 400px;
+		padding-bottom: 150px;	
+	}
+
+	#photo2 {
+		width: 400px;
+		padding-top: 150px;
+	}
+
+	.myImage {
+		border-radius: 50%;
+		width: 7%;
+		padding-top: 10px;
+		position: relative;
+		top: 5px;
+	}
+
+	.victimImage {
+		border-radius: 50%;
+		width: 7%;
+		padding-top: 10px;
+		position: relative;
+		top: 5px;
+	}
+
+	.myStatu {
+		border-radius: 50%;
+		width: 3%;
+		position: relative;
+		right: 14px;
+		top: 5px;
+	}
+
+	.victimStatu {
+		border-radius: 50%;
+		width: 2.8%;
+		position: relative;
+		right: 14px;
+		top: 6px;	
+	}
+
+	.name {
+		font-family: 'Montserrat', sans-serif;		
+		color: #eee;
+		margin: 0px;
+		position: relative;
+		bottom: 32px;
+		padding-left: 50px;
+	}
+
+	.my-message .name {
+		font-weight: 400;
+		font-size: 12px;
+		position: relative;
+		bottom: 32px;
+	}
+
+	.victim-message .name {
+		font-size: 14px;
+		color: #C8C8C8;
+	}
+	
+
+	.time {
+		font-family: roboto;
+		color: #A9A9A9;
+		font-size: 12px;
+		margin: 0px;
+		position: relative;
+		bottom: 48px;
+	}
+
+	.my-message .time {
+		padding-left: 90px;
+	}
+
+	.victim-message .time {
+		padding-left: 220px;
+	}
+
+	.message {
+		font-family: 'Tajawal', sans-serif;
+		color: #eeeeee;
+		font-weight: 300;
+		font-size: 14px;
+		margin: 0px;
+		position: relative;
+		bottom: 45px;
+		padding-left: 50px;
+	}
+
+	.three-dots:after {
+		content: '\2807';
+		font-size: 20px;
+		color: white;
+		position: relative;
+		bottom: 92px;
+		left: 346px;		
+	} 
+
+	.vertical-line {
+		border-left: 3px solid #5C527F;
+		height: 68px;
+		position: relative;
+		bottom: 120px;
+		right: 18px;
+	}
+
+	.hide {
+		display: none;
+	}
+	
+/*}*/
